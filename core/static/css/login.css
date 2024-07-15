@@ -70,6 +70,11 @@ body {
     line-height: 2em;
 }
 
+/* Add these styles to change the text color of form labels to white */
+.form-group label {
+    color: white; /* Text color for form labels */
+}
+
 .login .form-row #id_username, .login .form-row #id_password {
     padding: 8px;
     width: 100%;
@@ -85,13 +90,15 @@ body {
 .login .password-reset-link {
     text-align: center;
 }
-.login #text p{
+
+.login #text p {
     color: #e0dfdf; /* Text color for the header */
     font-size: 1rem; /* Font size of the header text */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Font family */
     background-color: azure; /* Background color of the header */
     margin: 0;
 }
+
 .login .errorlist {
     color: red; /* Change the text color */
     background-color: #ffe6e6; /* Change the background color */
@@ -101,10 +108,8 @@ body {
 }
 
 .bg-body-danger {
-     /* Background color of the error message */
+    /* Background color of the error message */
     color: #ce2435; /* Text color of the error message */
     padding: 10px;
     margin-bottom: 15px;
-    
 }
-

@@ -25,25 +25,28 @@ body {
     }
 }
 
-
 /* Timer section styles */
 .timer--section {
     text-align: center;
+    color: white; /* Ensure timer section text is white */
 }
 
 .timer {
     font-size: 3em; /* Increase font size for timer */
     margin-bottom: 20px;
+    color: white; /* Ensure timer text is white */
 }
 
 /* Button styles */
 .btn {
     margin: 5px;
+    color: white; /* Ensure button text is white */
 }
 
 /* Custom time section styles */
 .custom--time {
     margin-top: 50px; /* Add spacing between sections */
+    color: white; /* Ensure custom time section text is white */
 }
 
 /* Round time bar */
@@ -72,6 +75,7 @@ body {
         width: 0%;
     }
 }
+
 .progress-bar-container {
     position: relative;
     height: 20px;
@@ -95,24 +99,32 @@ body {
     0% { background-position: 0% 0%; }
     100% { background-position: 100% 0%; }
 }
+
 .timer {
     text-align: center;
     font-size: 2rem;
+    color: white; /* Ensure timer text is white */
 }
+
 .navbar--section {
     margin-bottom: 20px;
+    color: white; /* Ensure navbar text is white */
 }
 
 .main-section {
     padding: 20px;
+    color: white; /* Ensure main section text is white */
 }
 
 .timer-display {
     font-size: 3rem;
     margin-bottom: 20px;
+    color: white; /* Ensure timer display text is white */
 }
+
 .controls {
     margin-top: 20px;
+    color: white; /* Ensure controls text is white */
 }
 
 .controls button {
@@ -122,8 +134,15 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    color: white; /* Ensure button text is white */
 }
 
 .controls button:hover {
     background-color: #ddd;
+    color: black; /* Change button text color on hover */
+}
+
+/* Specific text elements */
+h1, h2, h3, h4, h5, h6, p, a, span {
+    color: white; /* Ensure all header, paragraph, anchor, and span text is white */
 }
